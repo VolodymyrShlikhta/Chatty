@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D3604D9B713A41AC088998D /* Pods_Chatty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB3CEB4CC6D2F0544C454FC /* Pods_Chatty.framework */; };
+		BA0EB5AE1FC6FBC90052B23C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA0EB5AD1FC6FBC90052B23C /* GoogleService-Info.plist */; };
+		BA0EB5B01FC70E790052B23C /* ChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0EB5AF1FC70E790052B23C /* ChannelsViewController.swift */; };
 		BA94E6B01FC6D806004A771B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA94E6AF1FC6D806004A771B /* AppDelegate.swift */; };
-		BA94E6B21FC6D806004A771B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA94E6B11FC6D806004A771B /* ViewController.swift */; };
-		BA94E6B51FC6D806004A771B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA94E6B31FC6D806004A771B /* Main.storyboard */; };
+		BA94E6B21FC6D806004A771B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA94E6B11FC6D806004A771B /* LoginViewController.swift */; };
 		BA94E6B71FC6D806004A771B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA94E6B61FC6D806004A771B /* Assets.xcassets */; };
 		BA94E6BA1FC6D806004A771B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA94E6B81FC6D806004A771B /* LaunchScreen.storyboard */; };
+		BA94E6C31FC6D963004A771B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA94E6C21FC6D963004A771B /* Main.storyboard */; };
+		BA94E6C71FC6DA05004A771B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA94E6C61FC6DA05004A771B /* RegisterViewController.swift */; };
+		BA9929DA1FC716B700D6323D /* CreateChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9929D91FC716B700D6323D /* CreateChannelCell.swift */; };
+		BA9929DC1FC72A7D00D6323D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9929DB1FC72A7D00D6323D /* ChatViewController.swift */; };
+		BA9929DE1FC72B9400D6323D /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9929DD1FC72B9400D6323D /* Channel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13A688F13DD4264A1F224262 /* Pods-Chatty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatty.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatty/Pods-Chatty.release.xcconfig"; sourceTree = "<group>"; };
+		1AB3CEB4CC6D2F0544C454FC /* Pods_Chatty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		340BD0AF15E9347EEB4E4A4E /* Pods-Chatty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chatty/Pods-Chatty.debug.xcconfig"; sourceTree = "<group>"; };
+		BA0EB5AD1FC6FBC90052B23C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA0EB5AF1FC70E790052B23C /* ChannelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsViewController.swift; sourceTree = "<group>"; };
 		BA94E6AC1FC6D806004A771B /* Chatty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA94E6AF1FC6D806004A771B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA94E6B11FC6D806004A771B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA94E6B41FC6D806004A771B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA94E6B11FC6D806004A771B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BA94E6B61FC6D806004A771B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA94E6B91FC6D806004A771B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BA94E6BB1FC6D806004A771B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA94E6C21FC6D963004A771B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BA94E6C61FC6DA05004A771B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		BA94E6C91FC6F4A5004A771B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9929D91FC716B700D6323D /* CreateChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChannelCell.swift; sourceTree = "<group>"; };
+		BA9929DB1FC72A7D00D6323D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BA9929DD1FC72B9400D6323D /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3604D9B713A41AC088998D /* Pods_Chatty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A564437C43FFBD6A1BA6E69E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				340BD0AF15E9347EEB4E4A4E /* Pods-Chatty.debug.xcconfig */,
+				13A688F13DD4264A1F224262 /* Pods-Chatty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD3A2057AAFE28205FF82AA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AB3CEB4CC6D2F0544C454FC /* Pods_Chatty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA94E6A31FC6D806004A771B = {
 			isa = PBXGroup;
 			children = (
 				BA94E6AE1FC6D806004A771B /* Chatty */,
 				BA94E6AD1FC6D806004A771B /* Products */,
+				A564437C43FFBD6A1BA6E69E /* Pods */,
+				AD3A2057AAFE28205FF82AA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,36 @@
 		BA94E6AE1FC6D806004A771B /* Chatty */ = {
 			isa = PBXGroup;
 			children = (
-				BA94E6AF1FC6D806004A771B /* AppDelegate.swift */,
-				BA94E6B11FC6D806004A771B /* ViewController.swift */,
-				BA94E6B31FC6D806004A771B /* Main.storyboard */,
-				BA94E6B61FC6D806004A771B /* Assets.xcassets */,
+				BA0EB5AD1FC6FBC90052B23C /* GoogleService-Info.plist */,
+				BA94E6C91FC6F4A5004A771B /* Info.plist */,
+				BA94E6C41FC6D991004A771B /* Supporting files */,
+				BA94E6C51FC6D99E004A771B /* Application */,
+				BA94E6B11FC6D806004A771B /* LoginViewController.swift */,
+				BA94E6C61FC6DA05004A771B /* RegisterViewController.swift */,
+				BA9929DD1FC72B9400D6323D /* Channel.swift */,
+				BA0EB5AF1FC70E790052B23C /* ChannelsViewController.swift */,
+				BA9929DB1FC72A7D00D6323D /* ChatViewController.swift */,
+				BA9929D91FC716B700D6323D /* CreateChannelCell.swift */,
+				BA94E6C21FC6D963004A771B /* Main.storyboard */,
 				BA94E6B81FC6D806004A771B /* LaunchScreen.storyboard */,
-				BA94E6BB1FC6D806004A771B /* Info.plist */,
 			);
 			path = Chatty;
+			sourceTree = "<group>";
+		};
+		BA94E6C41FC6D991004A771B /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				BA94E6B61FC6D806004A771B /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		BA94E6C51FC6D99E004A771B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BA94E6AF1FC6D806004A771B /* AppDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +129,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA94E6BE1FC6D806004A771B /* Build configuration list for PBXNativeTarget "Chatty" */;
 			buildPhases = (
+				92EE73FE7E54AFF3B2745377 /* [CP] Check Pods Manifest.lock */,
 				BA94E6A81FC6D806004A771B /* Sources */,
 				BA94E6A91FC6D806004A771B /* Frameworks */,
 				BA94E6AA1FC6D806004A771B /* Resources */,
+				C6E9DF356A11643EE74B1D1D /* [CP] Embed Pods Frameworks */,
+				B81CF6EB85D149EBB11A05C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,34 +185,96 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA94E6BA1FC6D806004A771B /* LaunchScreen.storyboard in Resources */,
+				BA0EB5AE1FC6FBC90052B23C /* GoogleService-Info.plist in Resources */,
 				BA94E6B71FC6D806004A771B /* Assets.xcassets in Resources */,
-				BA94E6B51FC6D806004A771B /* Main.storyboard in Resources */,
+				BA94E6C31FC6D963004A771B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92EE73FE7E54AFF3B2745377 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chatty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B81CF6EB85D149EBB11A05C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chatty/Pods-Chatty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E9DF356A11643EE74B1D1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Chatty/Pods-Chatty-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chatty/Pods-Chatty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA94E6A81FC6D806004A771B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA94E6B21FC6D806004A771B /* ViewController.swift in Sources */,
+				BA9929DE1FC72B9400D6323D /* Channel.swift in Sources */,
+				BA9929DC1FC72A7D00D6323D /* ChatViewController.swift in Sources */,
+				BA94E6C71FC6DA05004A771B /* RegisterViewController.swift in Sources */,
+				BA94E6B21FC6D806004A771B /* LoginViewController.swift in Sources */,
+				BA0EB5B01FC70E790052B23C /* ChannelsViewController.swift in Sources */,
 				BA94E6B01FC6D806004A771B /* AppDelegate.swift in Sources */,
+				BA9929DA1FC716B700D6323D /* CreateChannelCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BA94E6B31FC6D806004A771B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA94E6B41FC6D806004A771B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA94E6B81FC6D806004A771B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +395,7 @@
 		};
 		BA94E6BF1FC6D806004A771B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340BD0AF15E9347EEB4E4A4E /* Pods-Chatty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +410,7 @@
 		};
 		BA94E6C01FC6D806004A771B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A688F13DD4264A1F224262 /* Pods-Chatty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
